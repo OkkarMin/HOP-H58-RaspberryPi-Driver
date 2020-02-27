@@ -16,11 +16,12 @@ Hence, I wrote a quick shell script to install correct dependencies and use the 
 ### Installing
 
 1. Clone the repo
-2. Make the install_H58_driver.sh executable
-3. Run the script
+2. Change directory into install_files
+3. Make the install_H58_driver.sh executable
+4. Run the script
 
 ```bash
-cd HOP-H58-RaspberryPi-Driver
+cd HOP-H58-RaspberryPi-Driver/install_files
 sudo chmod +x install_H58_driver.sh
 ./install_H58_driver.sh
 ```
