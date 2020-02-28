@@ -4,6 +4,21 @@ During my internship I was tasked with getting this [Hoin's HOP-H58 Thermal Prin
 
 Hence, I wrote a quick shell script to install correct dependencies and use the printer while plugged into RaspberryPi USB port
 
+Tested and working well on
+
+```bash
+PRETTY_NAME="Raspbian GNU/Linux 10 (buster)"
+NAME="Raspbian GNU/Linux"
+VERSION_ID="10"
+VERSION="10 (buster)"
+VERSION_CODENAME=buster
+ID=raspbian
+ID_LIKE=debian
+HOME_URL="http://www.raspbian.org/"
+SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
+BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
+```
+
 ## Getting Started
 
 ### Prerequisites
