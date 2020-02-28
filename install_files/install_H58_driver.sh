@@ -87,7 +87,7 @@ echo ""
 
 echo "Copying model ppd files to $DESTDIR/$PPDDIR"
 mkdir -p $DESTDIR/$PPDDIR
-cp ppd/*.ppd $DESTDIR/$PPDDIR
+cp ./ppd/pos58.ppd $DESTDIR/$PPDDIR
 echo ""
 
 
