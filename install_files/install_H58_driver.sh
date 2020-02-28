@@ -95,6 +95,10 @@ echo "Add the POS-58-Series printer"
 lpadmin -p POS-58-Series -E -v usb://Unknown/Printer?serial=Printer -P /usr/share/cups/model/pos/pos58.ppd
 echo ""
 
+echo "Set Default Options"
+lpadmin -p POS-58-Series -o CashDrawer=0NoCashDrawer -o FeedDist=3feed12mm
+echo ""
+
 if [ -z $RPMBUILD ]
 then
     echo "Restarting CUPS"
