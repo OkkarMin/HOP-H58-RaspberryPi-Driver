@@ -14,12 +14,6 @@ if [ `id -u` != 0 ];then
     exit 1
 fi 
 
-dir_tmp=/tmp/install_temp
-mkdir $dir_tmp
-sed -n -e '1,/^exit 0$/!p' $0 > "${dir_tmp}/packages.tar.gz" 2>/dev/null
-cd $dir_tmp
-tar zxf packages.tar.gz
-
 if [ ! -z $DESTDIR ]
 then
     echo "DESTDIR set to $DESTDIR"
