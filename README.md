@@ -11,7 +11,7 @@ Hence, I wrote a quick shell script to install correct dependencies and use the 
 - RaspberryPi with [Raspbian](https://www.raspberrypi.org/documentation/installation/installing-images/) installed
 - CUPS
   - [Follow this guide](https://kernelmastery.com/enable-regular-users-to-add-printers-to-cups/) to ensure that you have proper permisison to interact with CUPS
-- If possible, unplug any other external USB devices and only leave the printer USB plugged in
+- [Optional] Unplug any other external USB devices and only leave the printer USB plugged in
 
 ### Installing
 
