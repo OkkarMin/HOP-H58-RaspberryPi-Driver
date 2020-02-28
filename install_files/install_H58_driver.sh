@@ -92,7 +92,7 @@ echo ""
 
 
 echo "Add the POS-58-Series printer"
-lpadmin -p POS-58-Series -E -v socket://192.168.1.100:9100 -P /usr/share/cups/model/pos/pos58.ppd
+lpadmin -p POS-58-Series -E -v usb://Unknown/Printer?serial=Printer -P /usr/share/cups/model/pos/pos58.ppd
 echo ""
 
 if [ -z $RPMBUILD ]
