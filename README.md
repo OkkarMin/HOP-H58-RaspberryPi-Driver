@@ -32,7 +32,7 @@ sudo chmod +x install_H58_driver.sh
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
