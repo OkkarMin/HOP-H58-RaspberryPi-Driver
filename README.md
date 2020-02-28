@@ -36,8 +36,8 @@ BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 4. Run the script
 
 ```bash
-cd HOP-H58-RaspberryPi-Driver/install_files
-sudo chmod +x install_H58_driver.sh
+cd HOP-H58-RaspberryPi-Driver
+sudo chmod +x ./install_H58_driver.sh
 sudo ./install_H58_driver.sh
 ```
 
