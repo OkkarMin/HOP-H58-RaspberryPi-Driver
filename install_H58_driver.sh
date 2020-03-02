@@ -93,6 +93,10 @@ echo "Set Default Options"
 lpadmin -p POS-58-Series -o CashDrawer=0NoCashDrawer -o FeedDist=3feed12mm
 echo ""
 
+echo "Set Printer as Default"
+lpadmin -d POS-58-Series
+echo ""
+
 if [ -z $RPMBUILD ]
 then
     echo "Restarting CUPS"
